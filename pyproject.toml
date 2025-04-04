@@ -12,4 +12,6 @@ dependencies = [
     "transformers>=4.46.3",
     "trl>=0.12.1",
     "bitsandbytes>=0.45.0",
+    "argilla>=2.8.0",
+    "distilabel>=1.5.3",
 ]
