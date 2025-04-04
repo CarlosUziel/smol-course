@@ -22,4 +22,5 @@ dependencies = [
     "peft>=0.15.1",
     "opencv-python>=4.11.0.86",
     "seaborn>=0.13.2",
+    "smolagents>=1.6.0",
 ]
