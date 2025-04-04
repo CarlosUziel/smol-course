@@ -1,13 +1,12 @@
 import argparse
 import os
-from pydantic import BaseModel, Field
-from datasets import Dataset
 from typing import List
 
+from datasets import Dataset
 from distilabel.llms import InferenceEndpointsLLM
 from distilabel.pipeline import Pipeline
 from distilabel.steps.tasks import TextGeneration
-
+from pydantic import BaseModel, Field
 
 ################################################################################
 # Script Parameters

@@ -14,4 +14,7 @@ dependencies = [
     "bitsandbytes>=0.45.0",
     "argilla>=2.8.0",
     "distilabel>=1.5.3",
+    "jupyterlab>=4.4.0",
+    "rich>=13.9.4",
+    "tqdm>=4.67.1",
 ]

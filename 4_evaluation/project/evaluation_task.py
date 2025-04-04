@@ -1,12 +1,11 @@
 import numpy as np
-
-from lighteval.tasks.lighteval_task import LightevalTaskConfig
-from lighteval.tasks.requests import Doc
 from lighteval.metrics.utils.metric_utils import (
-    SampleLevelMetric,
     MetricCategory,
     MetricUseCase,
+    SampleLevelMetric,
 )
+from lighteval.tasks.lighteval_task import LightevalTaskConfig
+from lighteval.tasks.requests import Doc
 
 ################################################################################
 # Define the prompt function based on the structure of the dataset
